@@ -49,7 +49,7 @@ Der Spring Security Dialekt ermöglicht es,Inhalte basierend auf Benutzerrollen 
 
 - sec:authentication:Zeigt Informationenüber authentifizierte Benutzer an.
 
-1.5 Sicherheit aufHTTP-Header-Ebene
+1.5 Sicherheit auf HTTP-Header-Ebene
 --------------------------------------
 
 Spring Security fügt sinnvolle HTTP-Headerhinzu:
@@ -86,7 +86,7 @@ Aktiviere Methodensicherheit:
 1.7 Anwendungserstellung mit Token-basierter Authentifizierung
 ----------------------------------------------------------------
 
-In einer Client-Server-Architektur, wiez.B. einer React-App mit einer RESTful API, erfolgt die Authentifizierung durchToken-Austausch. Erstelle eine REST API mit UUID-Token und implementiere diesein einer Task-Verwaltungsanwendung.
+In einer Client-Server-Architektur, wiez.B. einer React-App mit einer RESTful API, erfolgt die Authentifizierung durch Token-Austausch. Erstelle eine REST API mit UUID-Token und implementiere diesein einer Task-Verwaltungsanwendung.
 
 1.8 Backend Entities
 ------------------------
@@ -114,11 +114,11 @@ Logging ist sehr wichtig in modernenSystemen, es wird gebraucht für diese Grün
 2.2 Aufgabe 1: Let’s try
 ---------------------------
 
-Das Ziel dieser Herausforderung ist es, denAnschein zu erwecken, dass der Benutzername "admin" erfolgreicheingeloggt ist. Der Rote bereich ist ein Log vom Server.
+Das Ziel dieser Herausforderung ist es, den Anschein zu erwecken, dass der Benutzername "admin" erfolgreicheingeloggt ist. Der Rote bereich ist ein Log vom Server.
 
 ![image info](./images/4.2.png)
 
-Nachdem man den Username ‘admin’eingebeben, das System zeigt imm Frontend dass man eingeloggt ist, aber imBackend bei den Logs zeigt es das gegenteil, das kann sehr gefärlich sein.
+Nachdem man den Username ‘admin’ eingebeben, das System zeigt imm Frontend dass man eingeloggt ist, aber imBackend bei den Logs zeigt es das gegenteil, das kann sehr gefärlich sein.
 
 2.3 Log-Spoofing:
 --------------------
@@ -184,24 +184,22 @@ Dann ging ich auf die GitHub Seite desProjektes und schaute mit welcher Technolo
 
 **WeitereThemen**:
 
-2.  **Log-Level**:
+- **Log-Level**:
 
+- **Exception Handling**:
 
-5.  **Exception Handling**:
-
-
-8.  **Audit Logging, Security Event Monitoring (SEM) und Anwendungslogs**:
+- **Audit Logging, Security Event Monitoring (SEM) und Anwendungslogs**:
 
 
 2.9 Was ist beim Workshop gelernt habe
 ----------------------------------------
 
-- **Log-Spoofing** ist eine ernsthafteBedrohung, die durch geeignete Sicherheitsmaßnahmen wie Eingabesanitierung undAuthentifizierung der Quelle abgemildert werden muss.
+- **Log-Spoofing** ist eine ernsthafte Bedrohung, die durch geeignete Sicherheitsmaßnahmen wie Eingabesanitierung und Authentifizierung der Quelle abgemildert werden muss.
 
 - **Loggen sensibler Informationen** solltevermieden werden, um Missbrauch bei einem Kompromittieren der Logs zuverhindern.
 
 - **Unterschiedliche Logging-Zwecke**(Audit,SEM, Betrugserkennung, Geschäftsprozessüberwachung) erfordernunterschiedliche Ansätze und Trennung der Logs.
 
-- **Log-Level und Exception Handling** sindwichtige Konzepte, um die Relevanz und Dringlichkeit von Log-Einträgen zukategorisieren und Ausnahmen sicher zu behandeln.
+- **Log-Level und Exception Handling** sind wichtige Konzepte, um die Relevanz und Dringlichkeit von Log-Einträgen zukategorisieren und Ausnahmen sicher zu behandeln.
 
-- **Sicherheit und Datenschutz** sollten immerPriorität haben, um die Integrität der Logs und den Schutz derBenutzerinformationen zu gewährleisten.
+- **Sicherheit und Datenschutz** sollten immer Priorität haben, um die Integrität der Logs und den Schutz der Benutzerinformationen zu gewährleisten.
