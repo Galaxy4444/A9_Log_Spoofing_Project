@@ -9,7 +9,6 @@ public class SecureLogger {
 
     public static void logInfo(String message, Object... params) {
         logger.info(sanitize(message), sanitizeParams(params));
-        logger.info(message, params);
     }
 
     public static void logError(String message, Throwable throwable) {
